@@ -1,0 +1,14 @@
+<template name="leaderboard">
+  <div id="points">
+		<h2>Points</h2>
+		{{score}}
+	</div>
+	<div id="leader-board">
+		<h2>Top 3 Players</h2>
+	        {{#each players}}
+	        {{> player}}
+	        {{/each}}
+     
+			{{> yield}}
+	</div>
+</template>

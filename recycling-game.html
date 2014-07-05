@@ -1,0 +1,23 @@
+<head>
+	<title>The recycling game</title>
+</head>
+<template name="layout">
+		<header>
+			<div>{{> clouds}}</div>
+		</header>
+		{{!-- {{> audio}} --}}
+		<section id="stats">
+			{{> counter}}
+			{{> leaderboard}}		
+		</section>
+		<section id="popup-screens" class="">
+			{{> screens}}
+		</section>
+		<section id="middle">
+			{{> bins}}
+		</section>	
+		<footer>
+			{{> footer}}
+		</footer>
+
+	</template>

@@ -1,0 +1,6 @@
+{
+  	"packages": {
+    	"external-file-loader": {},
+    	"iron-router": {}
+  	}
+}

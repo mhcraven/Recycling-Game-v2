@@ -1,0 +1,5 @@
+- upon beginning the game, sometimes drag-drop/hover states do not work/points do not increase or decrease
+- initial item does not load
+- upon clicking "Play Again", points reset to 0 initially, but revert back to point from previous session
+- sprite animation does not work
+- sounds dont work
